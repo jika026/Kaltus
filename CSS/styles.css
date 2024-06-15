@@ -7,6 +7,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Inter", sans-serif;
+}
 /* preloader */
 #preloader {
   position: fixed;
@@ -65,6 +68,7 @@ header {
   padding: 0 2rem;
   background-color: #fff;
   position: fixed;
+  height: 84px;
   width: 100%;
   z-index: 1000;
   box-shadow: 0 0 10px 0 #000;
@@ -266,9 +270,9 @@ button:hover {
 }
 .products .products-content {
   padding: 1rem 2rem 0.5rem;
-  max-width: max-content;
   background-color: #f0f0f0;
   border-radius: 24px;
+  width: 100%;
 }
 .products .products-content > div:nth-child(2) {
   display: flex;
@@ -303,6 +307,7 @@ button:hover {
   column-gap: 20px;
   row-gap: 3rem;
   margin-bottom: 3rem;
+  align-items: center;
 }
 .products .product {
   max-width: 381px;
@@ -336,7 +341,7 @@ button:hover {
   flex-direction: column;
   align-items: center;
 }
-.banners > div:last-child > div {
+.banners > div:first-child > div {
   right: 0vmax;
 }
 .banners > div > div p {
@@ -406,6 +411,7 @@ button:hover {
   font-family: var(--font);
   font-weight: var(--medium-weight);
   font-size: 12px;
+  line-height: 20px;
 }
 .mail-service {
   background-image: url(../images/subscriptionBanner.jpg);
@@ -519,4 +525,170 @@ footer .socials {
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
+}
+
+main {
+  font-family: var(--font);
+  padding-inline: 2rem;
+  display: flex;
+  gap: 3rem;
+}
+.products-hero {
+  background: url(../IMAGES/CartHeroBanner.png) no-repeat center;
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.back-btn {
+  display: flex;
+  column-gap: 0.5rem;
+  margin: 2rem 3rem;
+}
+.back-btn p {
+  font-size: 28px;
+  font-family: var(--font);
+  font-weight: var(--medium-weight);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.75rem;
+  margin-left: 1rem;
+}
+.product-name {
+  font-size: clamp(20px, 5vw, 50px);
+  margin-bottom: 0.5rem;
+  margin-left: -1rem;
+}
+.price,
+#text {
+  font-size: 30px;
+}
+.product-code {
+  font-size: 22px;
+}
+.review p,
+.colors label {
+  font-size: 18px;
+}
+.colors {
+  margin-block: 1rem 2rem;
+}
+.colors > div {
+  display: flex;
+  column-gap: 0.5rem;
+}
+.colors > div > div {
+  width: 20px;
+  height: 20px;
+}
+.quantity {
+  display: flex;
+  column-gap: 0.75rem;
+  background-color: #f0f0f0;
+  width: fit-content;
+  padding: 8px 16px;
+  align-items: center;
+  border-radius: 50px;
+}
+.operation {
+  background-color: #fff;
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+}
+.buttons {
+  display: flex;
+  column-gap: 3rem;
+  margin-top: 1rem;
+}
+.buttons button {
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 18px;
+  padding: 16px 34px;
+  border-radius: 6px;
+}
+.buttons button:first-child {
+  border: none;
+  background-color: #f97a05;
+  color: #fff;
+}
+.buttons button:last-child {
+  border: 1px solid #ff360a;
+}
+#product-image {
+  width: 40%;
+}
+.main-image {
+  margin-bottom: 3rem;
+}
+.main-image img {
+  max-height: 500px;
+  height: 100%;
+}
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 0.75rem;
+}
+.small-image {
+  cursor: pointer;
+  flex-basis: 33%;
+}
+.small-image img {
+  height: 100%;
+}
+
+#more-details {
+  margin: 3rem;
+}
+
+#more-details ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+.select {
+  font-size: 30px;
+  font-family: var(--font);
+  padding: 12px 28px;
+  border: 1px solid #ff360a;
+  max-width: fit-content;
+  border-radius: 24px;
+  list-style-type: none;
+  cursor: pointer;
+  text-align: center;
+}
+.select.active {
+  background-color: #f97a05;
+  color: #000;
+  font-weight: bold;
+}
+.contents {
+  display: none;
+}
+.contents.active {
+  display: block;
+}
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+  #product-image {
+    width: 100%;
+  }
+  .main-image img {
+    max-height: max-content;
+    height: 100%;
+  }
+  #more-details ul {
+    flex-direction: column;
+  }
 }
