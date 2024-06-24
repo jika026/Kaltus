@@ -64,7 +64,10 @@
           <input type="text" class="search" placeholder="Search" />
           <div class="icons">
             <i class="fa-solid fa-user"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <div class="cart-items">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <div><p>0</p></div>
+            </div>
             <i class="fa-solid fa-arrow-right-from-bracket"></i>
           </div>
         </div>
@@ -81,47 +84,7 @@
         <div class="products-title">
           <p>Today's Deal</p>
         </div>
-        <div class="products-container">
-          <section
-            class="products-content"
-            onclick="window.location.href='sproduct.html';"
-          >
-            <div class="product">
-              <img src="IMAGES/abayaOne.png" alt="Abaya" />
-            </div>
-            <div>
-              <p>ABAYA</p>
-              <p>#20,000</p>
-              <button>Add to Cart</button>
-            </div>
-          </section>
-          <section
-            class="products-content"
-            onclick="window.location.href='sproduct.html';"
-          >
-            <div class="product">
-              <img src="IMAGES/abayaTwo.png" alt="Abaya" />
-            </div>
-            <div>
-              <p>ABAYA</p>
-              <p>#20,000</p>
-              <button>Add to Cart</button>
-            </div>
-          </section>
-          <section
-            class="products-content"
-            onclick="window.location.href='sproduct.html';"
-          >
-            <div class="product">
-              <img src="IMAGES/abayaThree.png" alt="Abaya" />
-            </div>
-            <div>
-              <p>ABAYA</p>
-              <p>#20,000</p>
-              <button>Add to Cart</button>
-            </div>
-          </section>
-        </div>
+        <div class="products-container" id="productContainerOne"></div>
         <div class="banners">
           <div>
             <img src="IMAGES/NewAbayaBanner.png" alt="" />
@@ -138,47 +101,7 @@
             </div>
           </div>
         </div>
-        <div class="products-container">
-          <section
-            class="products-content"
-            onclick="window.location.href='sproduct.html';"
-          >
-            <div class="product">
-              <img src="IMAGES/abayaOne.png" alt="Abaya" />
-            </div>
-            <div>
-              <p>ABAYA</p>
-              <p>#20,000</p>
-              <button>Add to Cart</button>
-            </div>
-          </section>
-          <section
-            class="products-content"
-            onclick="window.location.href='sproduct.html';"
-          >
-            <div class="product">
-              <img src="IMAGES/abayaOne.png" alt="Abaya" />
-            </div>
-            <div>
-              <p>ABAYA</p>
-              <p>#20,000</p>
-              <button>Add to Cart</button>
-            </div>
-          </section>
-          <section
-            class="products-content"
-            onclick="window.location.href='sproduct.html';"
-          >
-            <div class="product">
-              <img src="IMAGES/abayaOne.png" alt="Abaya" />
-            </div>
-            <div>
-              <p>ABAYA</p>
-              <p>#20,000</p>
-              <button>Add to Cart</button>
-            </div>
-          </section>
-        </div>
+        <div class="products-container" id="productContainerTwo"></div>
       </div>
       <div class="testimony">
         <h1>Who We Are</h1>
@@ -280,14 +203,27 @@
         <div class="socials">
           <p><a href="#">Get Socials</a></p>
           <div>
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-x-twitter"></i>
-            <i class="fa-brands fa-linkedin"></i>
+            <i
+              class="fa-brands fa-facebook-f"
+              onclick="window.open('https://www.facebook.com/your_profile', '_blank');"
+            ></i>
+            <i
+              class="fa-brands fa-instagram"
+              onclick="window.open('https://www.instagram.com/your_profile', '_blank');"
+            ></i>
+            <i
+              class="fa-brands fa-x-twitter"
+              onclick="window.open('https://www.twitter.com/your_profile', '_blank');"
+            ></i>
+            <i
+              class="fa-brands fa-linkedin"
+              onclick="window.open('https://www.linkedin.com/your_profile', '_blank');"
+            ></i>
           </div>
         </div>
       </footer>
     </div>
+    <script src="SCRIPTS/productsdata.js"></script>
     <script src="SCRIPTS/preloader.js"></script>
     <script src="SCRIPTS/scripts.js"></script>
   </body>

@@ -1,0 +1,44 @@
+[
+    {
+        "id": "product4",
+        "name": "Female Abaya 4",
+        "price": "#21,000",
+        "Image": "IMAGES/abayaOne.png",
+        "mainImage": "IMAGES/abayaOne.png",
+        "sideImage": "IMAGES/abayaOneSide.png",
+        "backImage": "IMAGES/abayaOneBack.png",
+        "description": "An abaya for sale",
+        "sales": 30,
+        "rating": 1.9,
+        "reviews": 20,
+        "code": 989895
+    },
+     {
+        "id": "product5",
+        "name": "Female Abaya 5",
+        "price": "#23,500",
+        "Image": "IMAGES/abayaOne.png",              
+        "mainImage": "IMAGES/abayaOne.png",
+        "sideImage": "IMAGES/abayaOneSide.png",
+        "backImage": "IMAGES/abayaOneBack.png",
+        "description": "An abaya for sale",
+        "sales": 30,
+        "rating": 1.9,
+        "reviews": 20,
+        "code": 989894
+    },
+    {
+        "id": "product6",
+        "name": "Female Abaya 6",
+        "price": "#27,500",
+        "Image": "IMAGES/abayaOne.png",
+        "mainImage": "IMAGES/abayaOne.png",
+        "sideImage": "IMAGES/abayaOneSide.png",
+        "backImage": "IMAGES/abayaOneBack.png",
+        "description": "An abaya for sale",
+        "sales": 30,
+        "rating": 1.9,
+        "reviews": 20,
+        "code": 989893
+    }
+]

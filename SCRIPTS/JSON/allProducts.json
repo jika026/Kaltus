@@ -1,0 +1,96 @@
+[
+    [
+        {
+            "id": "product1",
+            "name": "Female Abaya 1",
+            "price": "#20,000",
+            "Image": "IMAGES/abayaOne.png",
+            "mainImage": "IMAGES/abayaOne.png",
+            "backImage": "IMAGES/abayaOneBack.png",
+            "sideImage": "IMAGES/abayaOneSide.png",
+            "description": "An abaya for sale",
+            "sales": 30,
+            "rating": 1.9,
+            "reviews": 20,
+            "code": 989898,
+            "star": 3
+        },
+        {
+            "id": "product2",
+            "name": "Female Abaya 2",
+            "price": "#22,500",
+            "Image": "IMAGES/abayaTwo.png",      
+            "mainImage": "IMAGES/abayaTwo.png",
+            "sideImage": "IMAGES/abayaOneSide.png",
+            "backImage": "IMAGES/abayaOneBack.png",
+            "description": "An abaya for sale",
+            "sales": 30,
+            "rating": 1.9,
+            "reviews": 20,
+            "code": 989899,
+            "star": 4
+        },
+        {
+            "id": "product3",
+            "name": "Female Abaya 3",
+            "price": "#25,000",
+            "Image": "IMAGES/abayaThree.png",
+            "mainImage": "IMAGES/abayaThree.png",
+            "sideImage": "IMAGES/abayaOneSide.png",
+            "backImage": "IMAGES/abayaOneBack.png",
+            "description": "An abaya for sale",
+            "sales": 30,
+            "rating": 1.9,
+            "reviews": 20,
+            "code": 989896,
+            "star": 2
+        }
+    ],
+    [
+        {
+            "id": "product4",
+            "name": "Female Abaya 4",
+            "price": "#21,000",
+            "Image": "IMAGES/abayaOne.png",
+            "mainImage": "IMAGES/abayaOne.png",
+            "sideImage": "IMAGES/abayaOneSide.png",
+            "backImage": "IMAGES/abayaOneBack.png",
+            "description": "An abaya for sale",
+            "sales": 30,
+            "rating": 1.9,
+            "reviews": 20,
+            "code": 989895,
+            "star": 3
+        },
+        {
+            "id": "product5",
+            "name": "Female Abaya 5",
+            "price": "#23,500",
+            "Image": "IMAGES/abayaOne.png",              
+            "mainImage": "IMAGES/abayaOne.png",
+            "sideImage": "IMAGES/abayaOneSide.png",
+            "backImage": "IMAGES/abayaOneBack.png",
+            "description": "An abaya for sale",
+            "sales": 30,
+            "rating": 1.9,
+            "reviews": 20,
+            "code": 989894,
+            "star": 1
+        },
+        {
+            "id": "product6",
+            "name": "Female Abaya 6",
+            "price": "#27,500",
+            "Image": "IMAGES/abayaOne.png",
+            "mainImage": "IMAGES/abayaOne.png",
+            "sideImage": "IMAGES/abayaOneSide.png",
+            "backImage": "IMAGES/abayaOneBack.png",
+            "description": "An abaya for sale",
+            "sales": 30,
+            "rating": 1.9,
+            "reviews": 20,
+            "code": 989893,
+            "star": 4
+        }
+]
+]
